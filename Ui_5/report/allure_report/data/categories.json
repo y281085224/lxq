@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '注册' in '百度一下，你就知道'",
+      "children" : [ {
+        "name" : "test_login",
+        "uid" : "74f01f262ea7bc94",
+        "parentUid" : "f1c97dcda62985d5a53cb22f5f2d1120",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652356102498,
+          "stop" : 1652356115614,
+          "duration" : 13116
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f1c97dcda62985d5a53cb22f5f2d1120"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
+      "children" : [ {
+        "name" : "test_login_close",
+        "uid" : "2ede73b37a4d78ca",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652356115704,
+          "stop" : 1652356121271,
+          "duration" : 5567
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

@@ -1,0 +1,42 @@
+{
+  "f3a79aa827b2fbc3fe58930d1d504a5a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2ede73b37a4d78ca",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1652356115704,
+        "stop" : 1652356121271,
+        "duration" : 5567
+      }
+    } ]
+  },
+  "3a87d964ce87b0ef047a7c085fd71c01" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "74f01f262ea7bc94",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '注册' in '百度一下，你就知道'",
+      "time" : {
+        "start" : 1652356102498,
+        "stop" : 1652356115614,
+        "duration" : 13116
+      }
+    } ]
+  }
+}

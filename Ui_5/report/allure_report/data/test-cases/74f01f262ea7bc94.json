@@ -1,0 +1,215 @@
+{
+  "uid" : "74f01f262ea7bc94",
+  "name" : "test_login",
+  "fullName" : "Case.Module_1.test_1.TestCase#test_login",
+  "historyId" : "3a87d964ce87b0ef047a7c085fd71c01",
+  "time" : {
+    "start" : 1652356102498,
+    "stop" : 1652356115614,
+    "duration" : 13116
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '注册' in '百度一下，你就知道'",
+  "statusTrace" : "self = <Case.Module_1.test_1.TestCase object at 0x0000027F403B3048>\nDriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"a1a32f83eff1504e1c7e550395798c0f\")>\n\n    def test_login(self, Driver):\n        self.y1 = YY1(Driver)\n    \n        self.y1.denglu()\n        print(\"111111111111111\")\n        assert 1 == 1\n        time.sleep(5)\n        t = Driver.title\n        print(t)\n        time.sleep(5)\n>       assert \"注册\" in t\nE       AssertionError: assert '注册' in '百度一下，你就知道'\n\nCase\\Module_1\\test_1.py:41: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "pySession",
+    "time" : {
+      "start" : 1652356102496,
+      "stop" : 1652356102496,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "pyClass",
+    "time" : {
+      "start" : 1652356102497,
+      "stop" : 1652356102497,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "pyModule",
+    "time" : {
+      "start" : 1652356102497,
+      "stop" : 1652356102497,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "Driver",
+    "time" : {
+      "start" : 1652356098910,
+      "stop" : 1652356102496,
+      "duration" : 3586
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '注册' in '百度一下，你就知道'",
+    "statusTrace" : "self = <Case.Module_1.test_1.TestCase object at 0x0000027F403B3048>\nDriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"a1a32f83eff1504e1c7e550395798c0f\")>\n\n    def test_login(self, Driver):\n        self.y1 = YY1(Driver)\n    \n        self.y1.denglu()\n        print(\"111111111111111\")\n        assert 1 == 1\n        time.sleep(5)\n        t = Driver.title\n        print(t)\n        time.sleep(5)\n>       assert \"注册\" in t\nE       AssertionError: assert '注册' in '百度一下，你就知道'\n\nCase\\Module_1\\test_1.py:41: AssertionError",
+    "steps" : [ {
+      "name" : "添加失败截图...",
+      "time" : {
+        "start" : 1652356115636,
+        "stop" : 1652356115702,
+        "duration" : 66
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bb40a50b520da61d",
+        "name" : "失败截图",
+        "source" : "bb40a50b520da61d.png",
+        "type" : "image/png",
+        "size" : 69799
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "pySession::0",
+    "time" : {
+      "start" : 1652356121331,
+      "stop" : 1652356121331,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "pyClass::0",
+    "time" : {
+      "start" : 1652356121329,
+      "stop" : 1652356121329,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "pyModule::0",
+    "time" : {
+      "start" : 1652356121330,
+      "stop" : 1652356121330,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "Driver::0",
+    "time" : {
+      "start" : 1652356121332,
+      "stop" : 1652356123391,
+      "duration" : 2059
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Case.Module_1"
+  }, {
+    "name" : "suite",
+    "value" : "test_1"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-70I24VD"
+  }, {
+    "name" : "thread",
+    "value" : "10300-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Case.Module_1.test_1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "74f01f262ea7bc94.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-70I24VD",
+    "children" : [ {
+      "name" : "10300-MainThread",
+      "children" : [ {
+        "name" : "test_login_close",
+        "uid" : "2ede73b37a4d78ca",
+        "parentUid" : "8f0e93ab81143bc7d95485a1adbdd46e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652356115704,
+          "stop" : 1652356121271,
+          "duration" : 5567
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login",
+        "uid" : "74f01f262ea7bc94",
+        "parentUid" : "8f0e93ab81143bc7d95485a1adbdd46e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652356102498,
+          "stop" : 1652356115614,
+          "duration" : 13116
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8f0e93ab81143bc7d95485a1adbdd46e"
+    } ],
+    "uid" : "cd96d81794ba943c50f0821c7b9c0de8"
+  } ]
+}
